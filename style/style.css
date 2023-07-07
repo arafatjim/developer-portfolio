@@ -5,11 +5,15 @@ nav{
           display: flex;
           justify-content:space-between;
           align-items:center;
+          margin:0 100px;
+          
+          
 }
 .nav-title{
-color: #181818;
-font-size: 45px;
-font-weight: 800;
+          color: #181818;
+          font-size: 45px;
+          font-weight: 800;
+
 
 }
 span{
@@ -17,12 +21,15 @@ span{
 }
 nav > ul{
           display: flex;
-
+          align-items: center;
+          justify-content: space-between;
+          
 }
-nav   li{
+li{
           margin-right: 51px;
           list-style: none;
           align-items: center;
+          
 }
 nav a{
           color: #474747;
@@ -35,9 +42,11 @@ nav a{
           line-height: normal;
           
 }
-.title{
+/* .title{
           display: flex;
-}
+          align-items: center;
+          justify-content: space-between;
+} */
 .nav-btn{
           width: 150px;
           height: 64px;
@@ -53,8 +62,48 @@ nav a{
           line-height: normal;
           padding: 18px 35px;
 }
-header{
+
+.header{
+          background: #FFF8F3;
+          padding: 0 200px;
+}
+.banner{
+          padding: 30px 30px 30px 150px;
           display: flex;
-          align-items: center;
-          justify-content: space-between;
+          align-items:center;
+.download-btn{
+          color: var(--white-color, #FFF);
+          text-align: center;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          width: 200px;
+          height: 64px;
+          flex-shrink: 0;
+          border-radius: 5px;
+          background: #FD6E0A;
+          border: none;
+}
+.banner-photo{
+          /* padding-left: 250px; */
+          width: 384px;
+          height: 376px;
+          flex-shrink: 0;
+          background: url(<path-to-image>), lightgray -192.573px 0px / 173.656% 100% no-repeat;
+}
+.contact-btn{
+          border-radius: 5px;
+          border: 1px solid #FD6E0A;
+          color: #FD6E0A;
+          text-align: center;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          width: 160px;
+          height: 64px;
+          flex-shrink: 0;
 }
