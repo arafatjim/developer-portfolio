@@ -223,7 +223,7 @@ nav a{
           margin-top: 0;
          
 }
-.experience{
+.skill{
           display: flex;
           justify-content: space-around;
           align-items: center;
@@ -232,16 +232,16 @@ nav a{
           margin-left: 130px;
           
 }
-.exp-box{
+.skill-box{
           border-radius: 5px;
           background: #FFF;
           box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
           width: 247px;
-          height: 300px;
+          height: 330px;
           flex-shrink: 0;
           padding: 30px 0 0 30px;
 }
-.exp-box p{
+.skill-box p{
           display: flex;
           width: 201px;
           flex-direction: column;
@@ -254,13 +254,60 @@ nav a{
           line-height: 28px;
           
 }
-.education{
-          display: flex;
-          justify-content:center;
-          align-items:center;
+.summary-title{
+          text-align: center;
+          color: #181818;
+          text-align: center;
+          font-size: 35px;
+          font-weight: 700;
 }
-.experience2{
+.summary{
           display: flex;
-          justify-content:center;
-          align-items:center;
+          margin:0 200px 0 200px;
+          justify-content: space-between;
+}
+.edu-title{
+          color: #474747;
+          font-size: 30px;
+          font-weight: 700;
+          margin: 0;
+}
+.edu-h3{
+          color:#474747;
+          font-size: 25px;
+          font-weight: 700;
+          margin: 0px;
+
+}
+.edu-h4{
+          color:#757575;
+          font-size: 20px;
+          font-weight: 600;
+          padding: 0px;
+          margin-top: 0;
+          margin-bottom: 0px;
+
+}
+.summary a{
+          display: flex;
+          width: 511px;
+          flex-direction: column;
+          flex-shrink: 0;
+          color: #757575;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 28px;
+          padding: 0;
+}
+.exp-box .edu-box{
+          margin: 0;
+}
+hr{
+          margin: 5px;
+}
+.summary h2{
+          margin: 0;
+}
+.experience {
+          margin-top: 8px;
 }
