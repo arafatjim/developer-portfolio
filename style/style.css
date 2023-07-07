@@ -65,12 +65,19 @@ nav a{
 
 .header{
           background: #FFF8F3;
-          padding: 0 200px;
+          padding: 0 30px 0 100px;
+          background-image: url('../images/header_bg.png');
+          background-repeat: no-repeat;
+          /* background-size: cover; */
+          
+          flex-shrink: 0;
+          background-position: right bottom;
 }
 .banner{
-          padding: 30px 30px 30px 150px;
+          padding: 30px 30px 0px 150px;
           display: flex;
           align-items:center;
+}    
 .download-btn{
           color: var(--white-color, #FFF);
           text-align: center;
@@ -85,13 +92,15 @@ nav a{
           border-radius: 5px;
           background: #FD6E0A;
           border: none;
+          /* margin-left: 30px; */
 }
 .banner-photo{
           /* padding-left: 250px; */
           width: 384px;
           height: 376px;
           flex-shrink: 0;
-          background: url(<path-to-image>), lightgray -192.573px 0px / 173.656% 100% no-repeat;
+          margin-bottom: 0;
+          background:url('../images/hardy.png')
 }
 .contact-btn{
           border-radius: 5px;
@@ -106,4 +115,76 @@ nav a{
           width: 160px;
           height: 64px;
           flex-shrink: 0;
+}
+.banner-greeting{
+          color: var(--dark-02, #474747);
+          font-family: Open Sans;
+          font-size: 45px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin-bottom: 0;
+}
+.banner-title{
+          color: var(--dark-01, #181818);
+          font-family: Open Sans;
+          font-size: 85px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin-top: 5px;
+          margin-bottom: 20px;
+}
+.banner-text{
+          display: flex;
+          width: 585px;
+          flex-direction: column;
+          flex-shrink: 0;
+          color: var(--dark-03, #757575);
+          font-family: Open Sans;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px;
+          margin-top: 0;
+}
+.about{
+          width: 1140px;
+          height: 550px;
+          flex-shrink: 0;
+          border-radius: 10px;
+          background: #FFF8F3;
+          margin: 70px 230px;
+}
+.about-title{
+          color: var(--dark-01, #181818);
+          text-align: center;
+          font-family: Open Sans;
+          font-size: 35px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          padding-top: 131px;
+}
+.about-text{
+          display: flex;
+          width: 827px;
+          flex-direction: column;
+          flex-shrink: 0;
+          color: var(--dark-03, #757575);
+          text-align: center;
+          font-family: Open Sans;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px;
+          /* text-align: justify; */
+          padding: 30px 157px;
+}
+.about-info{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 179px 131px 179px;
+          margin-top:0 ;
 }
